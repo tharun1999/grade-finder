@@ -14,6 +14,7 @@ function gotAll() {
     } else {
         document.getElementById("grade").disabled = true
     }
+    document.getElementById("result").innerHTML = "--"
 }
 
 function calculateGrade() {
