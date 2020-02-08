@@ -29,6 +29,6 @@ function calculateGrade() {
 
     let cum_sum = (sub1.value*2 + sub2.value*2 + sub3.value*2 + sub4.value*1 + sub5.value*4 + sub6.value*4 + sub7.value*3 + sub8.value*3 + sub9.value*3)
     let credits = 24
-
-    document.getElementById("result").innerHTML = cum_sum / credits
+    let result_grade = cum_sum / credits
+    document.getElementById("result").innerHTML = result_grade.toFixed(2)
 }
